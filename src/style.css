@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'iransansxmedium';
+    src: url('font/iransansx/IRANSansXMedium.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'iransansxmedium';
+    direction: rtl;
+}
+/* header */
+.container-fliud{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.icon-menu{
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.icon-menu img{
+    margin: 5px;
+    width: 28px;
+}
+.img-logo{
+    height: 36px;
+}
+.img-logo img{
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.img-bolt{
+    height: 36px;
+    display: flex;
+}
+.img-bolt div{
+    background-color: #0D6EFD;
+    padding: 8px;
+    margin-right: 33px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-login{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.img-login div{
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input-heder{
+    height: 42px;
+    margin-top: 8px;
+    position: relative;
+}
+.input-heder input{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding-right: 35px;
+    font-size: 17px;
+    background-color: #E9EAEE;
+    border: 0;
+    outline: none;
+}
+.input-heder img{
+    position: absolute;
+    right: 7px;
+    top: 8px;
+}
+.btn-right{
+    background-color: #287EFD;
+    border: 0;
+    color: white;
+    margin-right: 40px;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.btn-left{
+    vertical-align: middle;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 15px;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+.btn-left img{
+    vertical-align: middle;
+}
+.btn-right img{
+    vertical-align: middle;
+}
+.none{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.nav-bar ul li{
+    padding: 0 10px;
+}
